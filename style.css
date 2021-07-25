@@ -78,7 +78,46 @@ h3{
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button-rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-rules h2{
+    color: #F6F6F6;
+    font-family: 'robotolight';
+    padding-bottom: 20px;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: column;
+    color: #F6F6F6;
+}
+
+.arrow-box{
+    border: 1px solid #F6F6F6;
+    padding: .6rem;
+    margin-bottom: .6rem;
+    width: 40px;
+    border-radius: .25rem;
+    text-align: center;
+}
+
+.container-data-arrows{
+    display: flex;
+    align-items: center;
+}
+
+.info-arrow{
+    color: #F6F6F6;
+    font-family: 'robotolight';
+    padding-left: 10px;
 }
 
 nav{
@@ -131,9 +170,9 @@ nav{
     flex-direction: column;
 }
 
-.container-mini p{
+.container-mini h2{
     color: #F6F6F6;
-    font-family: 'robotomedium';
+    font-family: 'robotolight';
     position: relative;
     left: 25px;
     padding-bottom: 10px;

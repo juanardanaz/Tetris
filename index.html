@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tetris</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="./assets/tetris_icon.png">
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
@@ -20,6 +21,27 @@
     </nav>
     <main>
         <section class="container">
+            <div class="button-rules">
+                <h2>How to play</h2>
+                <div class="arrows">
+                    <div class="container-data-arrows">
+                        <div class="arrow-box"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                        <p class="info-arrow">Right</p>
+                    </div>
+                    <div class="container-data-arrows">
+                        <div class="arrow-box"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+                        <p class="info-arrow">Left</p>
+                    </div>
+                    <div class="container-data-arrows">
+                        <div class="arrow-box"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+                        <p class="info-arrow">Rotate</p>
+                    </div>
+                    <div class="container-data-arrows">
+                        <div class="arrow-box"><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+                        <p class="info-arrow">Down</p>
+                    </div>
+                </div>
+            </div>
             <div class="main-grid">
                 <div></div>
                 <div></div>
@@ -234,7 +256,7 @@
             </div>
     
             <div class="container-mini">
-                <p>Next:</p>
+                <h2>Next</h2>
                 <div class="mini-grid">            
                     <div></div>
                     <div></div>
