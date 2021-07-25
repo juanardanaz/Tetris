@@ -10,9 +10,13 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <h1>Welcome to <span>Tetris</span></h1>
-    <h3>Score:<span id="score">0</span></h3>
-    <button id="start-button">START/PAUSE</button>
+    <header>
+        <h1>Welcome to <br> <span>Tetris</span></h1>
+    </header>
+    <nav>
+        <h3>Score:<span id="score">0</span></h3>
+        <div id="start-button" class="start-button">START/PAUSE</div>
+    </nav>
     <main>
         <section class="container">
             <div class="main-grid">
@@ -228,7 +232,7 @@
                 <div class="taken"></div>
             </div>
     
-            <div class="mini-grid">
+            <div class="mini-grid">            
                 <div></div>
                 <div></div>
                 <div></div>
@@ -249,7 +253,9 @@
         </section>
         
     </main>
-    <footer>Copyright 2021</footer>
+    <footer>
+        <p>Copyright 2021</p>
+    </footer>
 
 </body>
 </html>
