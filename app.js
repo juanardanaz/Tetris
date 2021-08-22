@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let nextRandom = 0;
     let timerId;
     let score = 0;
+    let square;
 
     const colors = [
         'orange',
@@ -231,18 +232,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    //Reset Game
-    let resetBtn = document.getElementById('resetgame');
-    resetBtn.addEventListener('click', resetGame);
+    // //Reset Game
+    // let resetBtn = document.getElementById('resetgame');
+    // resetBtn.addEventListener('click', resetGame);
 
-    function resetGame(){
-        clearInterval(timerId);
-        unDraw();
-        score = 0;
-        scoreDisplay.innerHTML = score;
-        current.style.display = 'none';
-        square.style.display = 'none';
-    }
+    // function resetGame(){
+    //     clearInterval(timerId);
+    //     unDraw();
+    //     score = 0;
+    //     scoreDisplay.innerHTML = score;
+    //     current.style.display = 'none';
+    //     squares.style.display = 'none';
+    //     displayWidth.style.display = 'none';
+    //     displayIndex.style.display = 'none';
+
+    // }
 
 
 

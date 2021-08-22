@@ -58,14 +58,14 @@ header{
 
 h1{
     color: #F6F6F6;
-    font-family: 'robotothin';
+    font-family: 'Roboto';
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
 }
 
 span.tetris{
-    font-family: 'robotobold';
+    font-family: 'Roboto';
     font-size: 80px;
     text-transform: uppercase;
 }
@@ -73,7 +73,7 @@ span.tetris{
 
 h3{
     color: #F6F6F6;
-    font-family: 'robotolight';
+    font-family: 'Roboto';
 }
 
 .container{
@@ -90,7 +90,7 @@ h3{
 
 .button-rules h2{
     color: #F6F6F6;
-    font-family: 'robotolight';
+    font-family: 'Roboto';
     padding-bottom: 20px;
 }
 
@@ -116,7 +116,7 @@ h3{
 
 .info-arrow{
     color: #F6F6F6;
-    font-family: 'robotolight';
+    font-family: 'Roboto';
     padding-left: 10px;
 }
 
@@ -172,7 +172,7 @@ nav{
 
 .container-mini h2{
     color: #F6F6F6;
-    font-family: 'robotolight';
+    font-family: 'Roboto';
     position: relative;
     left: 25px;
     padding-bottom: 10px;
@@ -180,15 +180,15 @@ nav{
 
 footer p{
     color: #F6F6F6;
-    font-family: 'robotolight';
+    font-family: 'Roboto';
     text-align: center;
     margin: 40px;
 }
 
 .start-button{
     color: #E8E8E8;
-    font-family: 'robotomedium';
-    text-transform: lowercase;
+    font-family: 'Roboto';
+    /* text-transform: lowercase; */
     background-color: #990100;
     padding: 15px;
     margin-top: 15px;
