@@ -2,4 +2,4 @@
 This work is a practice exercise, in which I develop the classic game 'Tetris'.
 It still a work in progress, so feel free to comment!
 
-You can try it here: 
+You can try it here: https://juanardanaz.github.io/tetris/
